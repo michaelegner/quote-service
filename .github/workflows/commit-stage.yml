@@ -3,7 +3,7 @@ on: push
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: polarbookshop/quote-service
+  IMAGE_NAME: michaelegner/quote-service
   VERSION: ${{ github.sha }}
 
 jobs:
